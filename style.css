@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: ver;
+    src: url(./VarinonormalRegular-1GXaM.ttf);
+}
+
+.ver{font-family: ver,sans-serif;}
+
+body{
+    background: url(./25499.jpg) no-repeat center top/cover;
+    min-height: auto;
+    min-height: auto;
+}
+.container{
+    text-align: center;
+}
+
+.inputvalue{
+    padding: 10px 20px;
+    min-width: 50%;
+    margin-top:400px;
+    outline:#F54;
+    font-size: 2em;
+    font-style: italic;
+    filter: drop-shadow(0 0 50px #F64);
+}
+.btn{
+    background-color: #fff;
+    color: #E6A;
+    padding: 10px 20px;
+    border: 1px solid #fcc;
+    cursor: pointer;
+    font-size: 2.5em;
+    font-style: italic;
+    outline: none;
+}
+.btn:focus{
+    color: #FFF;
+    background: #255E7A;
+    width: fit-content;
+}
+.display{
+    /* border: 2px solid #FFF; */
+    color: #FFF;
+    width: 850px;
+    text-align: center;
+    margin: auto;
+    font-size: 2em inherit;
+    padding: 5px 10px;
+    display: block;
+    margin-top: 2em;
+}
+
+
+@media screen and(max-width:460px){
+    .inputvalue{
+        padding: 8px 10px;
+        min-width: 40%;
+        margin-top: 80px;
+        outline: none;
+        font-size: 1em;
+        margin-right: 10px;
+    }
+    .btn{
+        background-color: transparent;
+        color: #101;
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 300px) {
+    .inputvalue {
+      margin-bottom: 20px;
+    }
+}
